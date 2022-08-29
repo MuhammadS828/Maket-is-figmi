@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family:'Gilroy';
+    font-size: 18px;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    background-color: #FAFAFA;
+    padding: 40px;
+}
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    width: 40px;
+}
+header nav {
+    width: 330px;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.gift-finder {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    color: #F7941E;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.feauters {
+    background-color: #F1F1F1;;
+}
+.feauters-info, .feauters-work {
+    display: flex;
+    align-items: center;
+}
+.feauters-img, .feauters-desc {
+    width: 50%;
+}
+.feauters-img img {
+    display: block;
+}
+.feauters .content {
+    width: 430px;
+    margin: auto;
+}
+.feauters-title {
+    font-size: 55px;
+}
+.feauters-subtitle {
+    font-size: 32px;
+    font-weight: 400;
+}
+.feauters-desc p {
+    font-size: 20px;
+
+}
+.feauters .find-gift-button {
+    width: 200px;
+    height: 60px;
+    background-color: #F7941E;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 60px;
+
+    color: #fff;
+    text-transform: uppercase;
+}
+.feauters .learn-more-button {
+    width: 200px;
+    height: 60px;
+    border: 1px solid #F7941E;
+    border-radius: 5px  ;
+    text-align: center;
+    line-height: 60px;
+    color: #F7941E;
+    text-transform: uppercase;
+}
+.wrap {
+    width: 1170px;
+    margin: auto;
+    padding: 90px 0;
+
+}
+.title {
+    font-size: 32px;
+    font-weight: 400;
+}
+.subtitle {
+    font-size: 18px;
+    font-weight: 300;
+}
+.ossacions-cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.occasions .title, 
+.occasions .subtitle,
+.blogs .title, .blogs .subtitle {
+    text-align: center;
+}
+.ossacions-card-item {
+    width: 270px;
+    background-color: #FAFAFA;
+    transition: .3s;
+}
+.ossacions-card-item:hover {
+    background-color: #FFF;
+    box-shadow: 10px 10px 15px 0px rgba(0, 0 , 0,.05);
+
+}
+.card-desc {
+    margin: 24px;
+}
+.ossacions-cards .see-more {
+    margin-top: 75px;
+    font-size: 14px;
+}
+.cta {
+    background-color: #F7941E;
+    height: 240px;
+    align-items: center;
+    display: flex;
+}
+.cta-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+.cta .wrap {
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cta-info h3, .cta-info p {
+    font-size: 32px;
+    margin: 0px;
+}
+
+.cta-action {
+    width: 415px;
+}
+.cta-buttons div {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.button-primery {
+    background-color: #231F20;
+    color: #FFF;
+    
+}
+.button-secondary {
+    border: 1px solid;
+}
+.blog-card {
+    background-color: #231F20;
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+}
+.blog-card-img {
+    width: 400px;
+
+}
+.blog-card-img img {
+    display: block;
+}
+.blog-card-info {
+    width: 500px;
+    margin: 0 80px;
+    
+    
+}
+.blog-card h3 {
+    font-size: 48px;
+    color: #FFF;
+    font-weight: 400;
+}
+.blog-card .author {
+    font-size: 14px;
+    color: #FFF;
+}
+
+.blog-card .read-more {
+    color: #FFF;
+}
+.blog-subcards {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.blog-subcard {
+    width: 570px;
+    padding: 50px;
+    transition: .3s;
+}
+.blog-subcard:hover {
+    box-shadow: 10px 10px 15px 0px rgba(0, 0 , 0,.05);
+}
+.blog-subcard h4 {
+    font-size: 18px;
+}
+.blog-subcard .read-more {
+    font-size: 14px;
+}
+footer {
+    background-color: #FAFAFA;
+    padding: 115px 0 35px;
+    
+}
+footer nav {
+    width: 600px;
+    margin: auto;
+}
+.footer-nav {
+    
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.footer-nav li {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0 25px;
+}
+.footer-logo {
+    padding: 0 115px!important;
+}
+.footer-logo img {
+    width: auto;
+}
+footer .line {
+    width: 1000px;
+    margin: 55px auto;
+    border: 1px solid #000;
+    background-color: #000;
+}
+footer .social {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.copiright {
+    text-align: center;
+    
+    margin-top: 70px;
+    font-size: 14px;
+}
+
+
